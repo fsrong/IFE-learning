@@ -1,0 +1,170 @@
+/* reset 重置样式 */
+* {
+	margin: 0 auto;
+	padding: 0
+	list-style: none;
+	font-family: "微软雅黑", sans-serif;
+
+}
+a {
+	text-decoration: none;
+}
+body {
+	width: 1000px;
+}
+.detail-header {
+	box-sizing: border-box;
+	width: 100%;
+	height: 115px;
+	font-size: 24px;
+	background: rgb(145, 212, 218);
+	vertical-align: middle;
+	padding-top: 36px;
+}
+.returnlink {
+	float: left;
+	color: #000;
+	margin-left: 32px;
+}
+.detail-title {
+	float: right;
+	margin-right: 40%;
+}
+.nav-box {
+	height: 116px;
+}
+.nav-item {
+	font-size: 20px;	
+	display: inline-block;
+	box-sizing: border-box;	
+	width: 180px;
+	height: 118px;
+	padding: 42px 70px;
+	
+}
+.nav-item a {
+	color: rgb(146, 146, 146);
+
+}
+.nav-item a:hover {
+	border-bottom: 8px solid rgb(144, 214, 214);
+}
+
+.banner {
+	width: 1000px;
+	height: 547px;
+
+}
+.tag-detail {
+	position: relative;
+	width: 190px;
+	height: 292px;
+	display: inline-block;
+}
+.tag-pic {
+	position: absolute;
+	top: 46px;
+	left: 37px;
+}
+.tap-text {
+	position: absolute;
+	bottom: 52px;
+	left: 78px;
+	font-size:18px;
+	text-align: center;
+}
+.three-subfield {
+	width: 948px;
+	height: 416px;
+	border-top: 2px solid rgb(222, 222, 222);
+	padding-top: 66px;	
+}
+
+
+.subfield-detail {
+	position: relative;
+	width: 310px;
+	height: 338px;
+	display: inline-block;
+	text-align: center;
+}
+.sub-pic {
+	position: absolute;
+	top: 30px;
+	left: 86px;
+}
+.sub-title {
+	font-size: 24px;
+	position: absolute;
+	bottom: 72px;
+	left: 122px;	
+}
+.sub-text {
+	font-size: 18px;
+	position: absolute;
+	bottom: 14px;
+	left: 112px;
+}
+.subfield-border {
+	border-left: 2px solid rgb(222, 222, 222);
+	border-right: 2px solid rgb(222, 222, 222);
+}
+.gray-line {
+	height: 36px;
+	width: 100%;
+	background: rgb(245, 245, 245);
+}
+.modules {
+	height: 660px;
+}
+.modules-title {
+	font-size: 24px;
+	border-bottom: 2px solid rgb(235, 235, 235);
+	padding-top: 42px;
+	padding-bottom: 34px;
+}
+
+.modtable td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.modtext {
+	font-size: 18px;
+	width: 300px;
+	background: rgb(248, 248, 248); 
+}
+
+.demoarticle {
+	box-sizing: border-box;
+	height: 252px;
+	padding: 24px;
+	padding-right: 90px;
+	border-bottom: 2px solid rgb(247, 247, 247);
+	position: relative;
+}
+.articlepic {
+	float: left;
+	display: inline-block;
+}
+.acrticletitle {
+	font-size: 22px;
+	position: absolute;
+	left: 338px;
+	top: 60px;
+}
+.articlesrc {
+	font-size: 16px;
+	position: absolute;
+	left: 338px;
+	bottom: 80px;
+}
+
+.bigarticle {
+	padding: 24px;
+
+}
+.bigarttitle {
+	font-size: 22px;
+	padding-bottom: 24px;
+}
